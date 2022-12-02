@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    z-index: 1100;
+}
+
+.navbar a {
+    color: #f2f2f2;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
+}
+
+
+.text {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.parallax-1 {
+    background-image: url("/img/1.jpg");
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-2 {
+    background-image: url("/img/2.jpg");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu .box {
+    border: 2px solid rgb(30, 121, 46);
+    padding: 34px;
+    margin: 0px 107px;
+    border-radius: 97px;
+    background-color: #e9ece8;
+    margin-bottom: 30px;
+}
+
+.menu .box img {
+    height: 160px;
+    margin: auto;
+    display: block;
+}
+
+.parallax-3 {
+    background-image: url("/img/3.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.images {
+    height: 240px;
+    width: 240px;
+    padding: 23px;
+
+}
+
+.zoom {
+    transition: transform .01s;
+}
+
+.zoom:hover {
+    transform: scale(1.2);
+}
+
+.health {
+    position: relative;
+}
+
+.parallax-4 {
+    background-image: url("/img/4.png");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.health {
+    display: flex;
+}
+
+.health .box {
+    border: 2px solid brown;
+    padding: 40px;
+    margin: 20px 221px;
+    border-radius: 66px;
+    background-color: #f2f2f2;
+}
+
+.health .box img {
+    height: 160px;
+    margin: auto;
+    display: block;
+}
+
+.address {
+    margin-top: 130px;
+    font-size: 1.5rem;
+}
+
+.parallax-5 {
+    background-image: url("/img/5.jpg");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-box{
+    opacity: 0.8;
+}
+.contact-box input,
+.contact-box textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 31px;
+    font-size: 1.1rem;
+}
+
+.contact-box form {
+    width: 95%;
+}
+
+footer {
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
+
+.main {
+    font-size: 3.8rem;
+    padding: 10px;
+}
+
+.main-2 {
+    font-size: 2.3rem;
+    padding: 11px;
+}
+
+.center {
+    text-align: center;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
+    padding: 10px;
+}
